@@ -1,0 +1,273 @@
+/* custom css starts here */
+
+/*-------- custom css ---------*/
+@brand-primary:         darken(#595959, 6.5%); // #337ab7
+@brand-secondary:         #32B493 !important;
+@brand-info:            #32B493 !important;
+
+@btn-secondary-color:               #fff;
+@btn-secondary-bg:                  @brand-secondary;
+@btn-secondary-border:              darken(@btn-secondary-bg, 5%);
+
+//## Font, line-height, and color for body text, headings, and more.
+
+@font-family-sans-serif:  'Muli', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/** By default, this inherits from the `<body>`.*/
+@headings-font-family:    'Muli', "Helvetica Neue", Helvetica, Arial, sans-serif;
+@headings-font-weight:    500;
+@headings-line-height:    1.1;
+@headings-color:          @brand-secondary;
+
+@media (max-width: 650px){
+  #section3.fp-section,
+  #section3 .fp-tableCell{
+    height: auto !important;
+    min-height: 100%;
+  }
+}
+/*screen resolutions smaller than 950px height*/
+@media (max-width: 950px){
+  #section3.fp-section,
+  #section3 .fp-tableCell{
+    height: auto !important;
+    min-height: 100%;
+  }
+}
+.spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+body{
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+
+}
+.padding-top-md{
+  padding-top: 30px !important;
+}
+.padding-md{
+  padding: 50px;
+}
+a:hover{
+  text-decoration:none !important;
+}
+.cursive-font{
+  font-family: 'Pacifico', cursive;
+  color: #000000;
+  font-weight:bold;
+}
+.white-text{
+  color: #fff !important;
+}
+.white-bg{
+  background: #ffffff !important;
+}
+.full-area-box{
+  width: 100%;
+  height: 100vh;
+}
+.purple-bg{
+  background: #3d2471;
+}
+.transparent{
+  background:rgba(255,255,255,0.6);
+}
+.vintage-overlay:hover{
+  background:rgba(204, 153, 0, 0.5)!important;
+  color: #000000!important;
+
+}
+.transparent-black {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.img-trans-box{
+  height: 50%;
+}
+.vert-align{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.green-text{
+  color: #32b493;
+  /*#0F9D58*/
+}
+.img-small{
+  height: 90px;
+  width: 90px;
+}
+/*second page animation*/
+.small-center-div{
+  width: 30%;
+  margin:0px auto;
+
+}
+.logo{
+  height: 80px;
+  width: 250px; 
+  padding: 10px;
+}
+.right-align{
+  float: right
+}
+
+body.fp-viewing-secondPage .animated{
+  transform: rotate(0deg) ;
+  -webkit-transform: rotate(0deg) ;
+  visibility: visible;
+  opacity: 1;
+}
+.animated {
+  transform: rotate(122deg) ;
+  -webkit-transform: rotate(122deg) ;
+  opacity: 0;
+  -webkit-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+}
+
+/*animation ends here*/
+#section0{
+  background-image: url(../../sample/images/page1.jpg) !important;
+}
+#section1{
+  /*transition: (0, 0.91, 0.43, 0.98);*/
+  position:relative;
+}
+#section2{
+  .item-1, .item-3, .item-4, .item-6, .item-8 {
+    background-color: #68b471 !important;
+
+
+    font-size: 18px;
+    
+    -webkit-transition: background-color 1s, font-size 1s;
+    -moz-transition: background-color 1s, font-size 1s;
+    -o-transition: background-color 1s, font-size 1s;
+    transition: background-color 1s, font-size 1s;
+  }
+  .item{
+    background: #77cd8a;
+    border: 1px solid #87c48e;
+    border-right: none;
+    border-bottom: none;
+    font-size: 18px !important;
+    font-weight: normal;    
+    -webkit-transition: background-color 1s, font-size 1s;
+    -moz-transition: background-color 1s, font-size 1s;
+    -o-transition: background-color 1s, font-size 1s;
+    transition: background-color 1s, font-size 1s;
+  }
+  .item p{
+    margin: 15px auto;
+    color: #ffffff;
+    height: 50px;
+  }
+  .item:hover{
+    background-color: #3d2471;
+    cursor: pointer;
+    font-size: 25px !important;
+
+  }
+  .item-1:hover, .item-3:hover, .item-4:hover, .item-6:hover, .item-8:hover {
+    background-color: #3d2471 !important;
+    cursor: pointer;
+    font-size: 25px !important;
+
+  }
+
+
+}
+
+
+#section3{
+
+
+  .content::before {
+    content: ' ';
+    display: block;
+    background: transparent;
+    position: absolute;
+    bottom: 50%;
+    left: -1.7rem;
+    border-top: 1.75rem solid transparent;
+    border-right: 1.75rem solid #362c1b;
+    border-left: none;
+    border-bottom: 1.75rem solid transparent;
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+  }
+}
+
+section.contact {
+  overflow: hidden;
+  height: 100%;
+}
+
+.block {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+.contact .halfwidth {
+  background-color: #362c1b;
+  float: right;
+}
+
+.halfwidth {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #362C1B;
+}
+/*vertical alignment*/
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Optional, to align inner items 
+  horizontally inside the column */
+}
+
+/**
+ *  Do NOT include this part into your stylesheet.
+ *  "flex: 1" or "flex-grow: 1" is added to make the inner div
+ *  - Which is also a flex-item - take up all the horizontal space
+ *  available space inside the flex container (.col-* elements)
+ */
+
+ /*vertical alignment ends here*/
+ .footer-logo{
+  background: url(../../sample/images/logo-footer.png);
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  background-size: cover;
+  transition: background 0.5s ease;
+
+}
+.footer-logo:hover{
+  background: url(../../sample/images/logo-footer-hover.png);
+  opacity: 0.5;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  background-size: cover;
+}

@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "intent": "MemoryIsIntent"
+    },
+    {
+      "intent": "ConcentrationIntent"
+    },
+    {
+      "intent": "SpeedReadingIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    }
+    
+  ]
+}
+
+MemoryIsIntent Memory
+MemoryIsIntent Start memory
+MemoryIsIntent I am interested in memory
+MemoryIsIntent I will go for memory
+MemoryIsIntent I will choose memory
+MemoryIsIntent Start memory techniques
+MemoryIsIntent I am interested in memory techniques
+MemoryIsIntent I will go for memory techniques
+MemoryIsIntent I will choose memory techniques
+ConcentrationIntent Concentration
+ConcentrationIntent Start concentration
+ConcentrationIntent I am interested in concentration
+ConcentrationIntent I will go for concentration
+ConcentrationIntent I will choose concentration
+ConcentrationIntent Start concentration techniques
+ConcentrationIntent I am interested in concentration techniques
+ConcentrationIntent I will go for concentration techniques
+ConcentrationIntent I will choose concentration techniques
+SpeedReadingIntent fast reading
+SpeedReadingIntent speed reading
+SpeedReadingIntent Start fast reading
+SpeedReadingIntent I am interested in fast reading
+SpeedReadingIntent I will go for fast reading
+SpeedReadingIntent I will choose fast reading
+SpeedReadingIntent Start fast reading techniques
+SpeedReadingIntent I am interested in fast reading techniques
+SpeedReadingIntent I will go for fast reading techniques
+SpeedReadingIntent I will choose fast reading techniques
+SpeedReadingIntent Start speed reading
+SpeedReadingIntent I am interested in speed reading
+SpeedReadingIntent I will go for speed reading
+SpeedReadingIntent I will choose speed reading
+SpeedReadingIntent Start speed reading techniques
+SpeedReadingIntent I am interested in speed reading techniques
+SpeedReadingIntent I will go for speed reading techniques
+SpeedReadingIntent I will choose speed reading techniques
+SpeedReadingIntent Start fast and speed reading
+SpeedReadingIntent I am interested in fast and speed reading
+SpeedReadingIntent I will go for fast and speed reading
+SpeedReadingIntent I will choose fast and speed reading
+SpeedReadingIntent Start fast and speed reading techniques
+SpeedReadingIntent I am interested in fast and speed reading techniques
+SpeedReadingIntent I will go for fast and speed reading techniques
+SpeedReadingIntent I will choose fast and speed reading techniques
+AMAZON.HelpIntent what can I ask you
+AMAZON.HelpIntent get help
+AMAZON.HelpIntent what do you do
+AMAZON.HelpIntent how can I use you
+AMAZON.HelpIntent help me
+AMAZON.HelpIntent help
+AMAZON.StopIntent stop
+AMAZON.StopIntent off
+AMAZON.StopIntent shut up
+AMAZON.StopIntent fuck off
+AMAZON.CancelIntent cancel
+AMAZON.CancelIntent never mind
+AMAZON.CancelIntent forget it
+AMAZON.CancelIntent leave it
+AMAZON.RepeatIntent repeat
+AMAZON.RepeatIntent say that again
+AMAZON.RepeatIntent repeat that
+
+
+
+
+
+
+mind power techniques
+
+
+
+
+
+
+Memory
+concentration
+
+SpeedReading
+
+
+setMemoryInSession
+setConcentrationInSession
+setSpeedReadingInSession
+
+
+fast reading
